@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- adding tailwind link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- adding tailwind config -->
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+
+<title>Online Store Redo</title>
+
+    
+</head>
+<body>
+    <!-- adding nav bar -->
+    <div id="navbar" class="flex gap-3 align-center justify-between p-3 px-5 text-white  font-bold bg-gray-500 mb-[30px]">
+        <!-- nv logo -->
+        <div id="logo" class="text-[30px] ">Safe Haven Furniture</div>
+        <!-- nav search form -->
+        <div id="searchform"><form class="pt-3">
+            <input class="ps-2 text-black" type="text" name="search" placeholder="Search">
+        </form>
+    </div>
+    <!-- navlinks -->
+        <div id="navlinks" >
+            <ul class="flex gap-3 pt-3">
+                <li><a class="hover:text-black"href="#servicessection">Home</a></li>
+                <li><a class="hover:text-black"href="#servicessection">About</a></li>
+                <li><a class="hover:text-black"href="#servicessection">Services</a></li>
+                <li><a class="hover:text-black"href="#servicessection">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- adding info section -->
+    <div id="infosection" class="p-5 font-bold mb-[30px] bg-gray-200">
+        <!-- info text -->
+        <div id="infotext">
+            <h2 id="info-header" class=" text-[35px] mb-2">Comfortable Decor Is Our Specialty</h2>
+          <p id="info-p" class="mb-3">
+            We sell comfortable, homey and office friendly furnitures.
+            <br />Make your comfort zone your heaven on earth. Your home is your
+            kingdom. <br />
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nam
+            qui nostrum. <br />
+            Ipsa eveniet quam aperiam inventore tempore atque explicabo
+            nobis,<br />
+            est esse dolores accusantium molestias pariatur nisi doloremque
+            fuga.
+          </p>
+
+          <p id="info-next" class="bg-red-500 p-3 w-[fit-content] text-white">Enjoy Shopping With Us</p>
+        </div>
+        <!-- info image -->
+        <div id="infoimage">
+            <img src=" " alt="" width:20px height:30px>
+        </div>
+    </div>
+
+    <!-- adding product section -->
+    <div id="productsection" class="font-bold h=[100vh]">
+        <!-- product text -->
+<div id="producttext" class="text-center ">
+   <h3 class="text-[30px]">Our Products</h3> 
+   <p class="text-lg">Quality Beyond Your Wildest Dreams</p>
+</div>
+<!-- products / images -->
+<div id="productimages" class="max-w-[768px] m-auto grid grid-cols-1 w-[screen] md:grid-cols-3 gap-12 ">
+    <!-- card1 -->
+    <div  class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 max-w-[768px] mb-[10px] ">
+        <div id="cardimage"><img src="bright 5.png" alt="pic" width="50px" height="50px"></div>
+        <div id="cardtext">
+            <p>A Lovely Picture</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!</p>
+        </div>
+        <div id="cardbutton"><button class="bg-red-500 p-2 text-white mt-3 rounded-2xl hover:bg-white hover:text-red-500 hover:border-4 hover:border-red-500" ><a href="google.com" target="_blank">Shop Now</a></button></div>
+    </div>
+    <!-- card2 -->
+    <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 max-w-[768px] mb-[10px]">
+        <div id="cardimage"><img src="bright 5.png" alt="pic" width="50px" height="50px"></div>
+    <div id="cardtext">
+        <p>A Lovely Picture</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!</p>
+    </div>
+    <div id="cardbutton"><button class="bg-red-500 p-2 text-white mt-3 rounded-2xl hover:bg-white hover:text-red-500 hover:border-4 hover:border-red-500" ><a href="google.com" target="_blank">Shop Now</a></button></div></div>
+    <!-- card3 -->
+    <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 max-w-[768px] mb-[10px]">
+        <div id="cardimage"><img src="bright 5.png" alt="pic" width="50px" height="50px"></div>
+    <div id="cardtext">
+        <p>A Lovely Picture</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!</p>
+    </div>
+    <div id="cardbutton"><button class="bg-red-500 p-2 text-white mt-3 rounded-2xl hover:bg-white hover:text-red-500 hover:border-4 hover:border-red-500" ><a href="google.com" target="_blank">Shop Now</a></button></div></div>
+    <!-- card4 -->
+    <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 max-w-[768px] mb-[10px]">
+        <div id="cardimage"><img src="bright 5.png" alt="pic" width="50px" height="50px"></div>
+    <div id="cardtext">
+        <p>A Lovely Picture</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!</p>
+    </div>
+    <div id="cardbutton"><button class="bg-red-500 p-2 text-white mt-3 rounded-2xl hover:bg-white hover:text-red-500 hover:border-4 hover:border-red-500" ><a href="google.com" target="_blank">Shop Now</a></button></div></div>
+    <!-- card5 -->
+    <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 max-w-[768px] mb-[10px]">
+        <div id="cardimage"><img src="bright 5.png" alt="pic" width="50px" height="50px"></div>
+    <div id="cardtext">
+        <p>A Lovely Picture</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!</p>
+    </div>
+    <div id="cardbutton"><button class="bg-red-500 p-2 text-white mt-3 rounded-2xl hover:bg-white hover:text-red-500 hover:border-4 hover:border-red-500" ><a href="google.com" target="_blank">Shop Now</a></button></div></div>
+    <!-- card6 -->
+    <div class="w-full shadow-xl shadow-gray-400 rounded-xl p-4 hover:scale-105 duration-300 max-w-[768px] mb-[10px]">
+        <div id="cardimage"><img src="bright 5.png" alt="pic" width="50px" height="50px"></div>
+    <div id="cardtext">
+        <p>A Lovely Picture</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, ipsa!</p>
+    </div>
+    <div id="cardbutton"><button class="bg-red-500 p-2 text-white mt-3 rounded-2xl hover:bg-white hover:text-red-500 hover:border-4 hover:border-red-500" ><a href="google.com" target="_blank">Shop Now</a></button></div></div>
+</div>
+    </div>
+
+    <!-- adding services section -->
+    <div id="servicessection" class="bg-gray-200 mt-[50px] ">
+        <div class="max-w-[768px] m-auto grid grid-cols-1  md:grid-cols-4 gap-8">
+<!-- 1 -->
+<div class="mb-[10px]">
+    <ion-icon name="download-outline" class="w-[30px] h-[60px]">
+    </ion-icon>
+    <p class="font-bold">
+      Download Our Catalogue and get full picture of all the splendid
+      items you can purchase.
+    </p>
+</div>
+<!-- 2 -->
+<div>
+    <ion-icon name="cart-outline" class="w-[30px] h-[60px]"> </ion-icon>
+  <p class="font-bold">
+    Add items you want to purchase to your cart. Store items you might
+    be interested in here so that you can come back at a later date to
+    view.
+  </p>
+</div>
+<!-- 3 -->
+<div>
+    <ion-icon name="bag-check-outline" class="w-[30px] h-[60px]">
+    </ion-icon>
+    <p class="font-bold">
+      Check out items you want to purchase and confirm your order with us
+      here. Be sure to rate our services as well.
+    </p>
+</div>
+<!-- 4 -->
+<div>
+    <ion-icon name="wallet-outline" class="w-[30px] h-[60px]"> </ion-icon>
+  <p class="font-bold">
+    Pay for all your purchases here. Select from our different payment
+    options. Whatever payment option suits you.
+  </p>
+</div>
+        </div>
+        
+    </div>
+
+
+    <!-- adding footer -->
+    <footer class="bg-gray-500 p-2 text-center text-white font-bold mt-[20px]">Copyright &copy; 2024, SafeHavenFurniture.</footer>
+
+
+    <!-- adding icons link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+</body>
+</html>
